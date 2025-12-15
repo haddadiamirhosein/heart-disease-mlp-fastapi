@@ -1,65 +1,65 @@
-    # 🫀 Heart Disease Prediction API (MLP from Scratch)
+# 🫀 Heart Disease Prediction API (MLP from Scratch)
 
-    This project is an **end-to-end Machine Learning pipeline** that implements a
-    **Multi-Layer Perceptron (MLP) neural network from scratch** using NumPy and
-    deploys it as a **REST API using FastAPI**.
+This project is an **end-to-end Machine Learning pipeline** that implements a
+**Multi-Layer Perceptron (MLP) neural network from scratch** using NumPy and
+deploys it as a **REST API using FastAPI**.
 
-    The goal is to demonstrate both **core ML understanding** and **production-ready deployment skills**.
+The goal is to demonstrate both **core ML understanding** and **production-ready deployment skills**.
 
-    ---
+---
 
-    ## 🚀 Project Highlights
+## 🚀 Project Highlights
 
-    - MLP implemented **from scratch** (no TensorFlow / PyTorch)
-    - Manual forward & backward propagation
-    - Feature engineering and normalization
-    - Model serialization and loading
-    - REST API for real-time inference
-    - Clean and modular project structure
+- MLP implemented **from scratch** (no TensorFlow / PyTorch)
+- Manual forward & backward propagation
+- Feature engineering and normalization
+- Model serialization and loading
+- REST API for real-time inference
+- Clean and modular project structure
 
-    ---
+---
 
-    ## 🧠 Model Details
+## 🧠 Model Details
 
-    - Architecture: Fully-connected MLP
-    - Activation function: Sigmoid
-    - Loss: Binary classification
-    - Output: Probability of heart disease
-    - Test Accuracy: ~87%
+- Architecture: Fully-connected MLP
+- Activation function: Sigmoid
+- Loss: Binary classification
+- Output: Probability of heart disease
+- Test Accuracy: ~87%
 
-    ---
+---
 
-    ## ⚙️ Installation & Run
+## ⚙️ Installation & Run
 
-    ### 1. Install dependencies
+### 1. Install dependencies
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+```bash
+pip install -r requirements.txt
+```
 
-    ### 2. Run
+### 2. Run
 
-    ```bash
-    uvicorn app.main:app --reload
-    ```
+```bash
+uvicorn app.main:app --reload
+```
 
-    You can open the interactive API docs at : http://127.0.0.1:8000/docs
+You can open the interactive API docs at : http://127.0.0.1:8000/docs
 
-    ## Prediction Example
+## Prediction Example
 
-    ### Request
+### Request
 
-    ```json
-    {
-    "features": [40, 1, 140, 289, 0, 172, 0, 0.0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0]
-    }
-    ```
+```json
+{
+"features": [40, 1, 140, 289, 0, 172, 0, 0.0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0]
+}
+```
 
-    ### Response
+### Response
 
-    ```json
-    {
-    "prediction": 0,
-    "probability": 0.1
-    }
-    ```
+```json
+{
+"prediction": 0,
+"probability": 0.1
+}
+```
