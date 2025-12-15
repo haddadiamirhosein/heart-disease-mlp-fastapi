@@ -1,0 +1,20 @@
+[
+  "Age",
+  "Sex",
+  "RestingBP",
+  "Cholesterol",
+  "FastingBS",
+  "MaxHR",
+  "ExerciseAngina",
+  "Oldpeak",
+  "ChestPainType_ATA",
+  "ChestPainType_NAP",
+  "ChestPainType_ASY",
+  "ChestPainType_TA",
+  "RestingECG_NORMAL",
+  "RestingECG_ST",
+  "RestingECG_LVH",
+  "ST_Slope_UP",
+  "ST_Slope_FLAT",
+  "ST_Slope_DOWN"
+]
